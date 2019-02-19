@@ -124,6 +124,17 @@ ul.skills {
   columns: 2;
 }
 
+.gallery-images {
+  transition: all .5s;
+}
+
+.gallery-images:hover {
+  transform: scale(1.1);
+  transition: all .5s;
+  /* border-radius: 50%; */
+  border: 3px solid white;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
